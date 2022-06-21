@@ -19,7 +19,7 @@ import { DateRangePickerModule } from '@syncfusion/ej2-angular-calendars';
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
 const config: SocketIoConfig = {
-	url: "https://dev-api.biotrips.in/", // socket server url;
+	url: "https://dev-api.biotrips.in/api", // socket server url;
 	options: {
 		transports: ['polling']
 	}
