@@ -52,8 +52,9 @@ const config: SocketIoConfig = {
       provide: HTTP_INTERCEPTORS,
       useClass: HttpInterceptorService,
       multi: true,
-      {provide:LocationStrategy,useClass:HashLocationStrategy},
+      
     },
+    {provide:LocationStrategy,useClass:HashLocationStrategy},
     // { provide: LOCALE_ID, useValue: 'fr' }
   ],
   entryComponents:[ForgotPasswordModalComponent],
